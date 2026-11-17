@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Understand AI, take control of your feed, and build healthier digital habits with Think Before You Click.">
+  <title>Think Before You Click</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Think Before You Click home"><span class="brand-icon" aria-hidden="true">↗</span><span>Think Before<br>You Click<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a><a href="#ai">AI awareness</a><a href="#social">Social media</a><a href="#habits">Healthy habits</a><a class="nav-quiz" href="#quiz">Take the quiz <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section id="home" class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-dot"></span> A little awareness. A better digital life.</p>
+        <h1>Think before<br>you <span class="serif">click.</span><span class="heading-star" aria-hidden="true">✳</span></h1>
+        <p class="hero-lead">Your attention is valuable.<br>Make every click a conscious choice.</p>
+        <p class="muted hero-description">Understand AI. Take control of your feed. Build healthier digital habits, one small step at a time.</p>
+        <div class="actions"><a class="button" href="#ai">Explore the guide <span aria-hidden="true">↗</span></a><a class="text-link" href="#quiz">Test your knowledge <span aria-hidden="true">→</span></a></div>
+        <div class="hero-foot"><span class="small-check">✓</span> Free to explore <span class="divider">/</span> Made for curious minds</div>
+      </div>
+      <div class="hero-art">
+        <div class="photo-frame"><img src="assets/images/students.jpg" alt="Students looking at a smartphone together on campus" width="1200" height="800"><div class="photo-caption"><span class="tiny-dot"></span> Connected, with intention.</div></div>
+        <div class="floating-note note-top"><span class="note-icon" aria-hidden="true">✦</span><div><strong>A smarter digital you</strong><small>Starts with a little curiosity.</small></div></div>
+        <div class="floating-note note-bottom"><span class="note-icon mint" aria-hidden="true">✓</span><div><strong>Pause. Think. Click.</strong><small>Your feed. Your choices.</small></div></div>
+        <span class="art-spark" aria-hidden="true">✳</span>
+      </div>
+    </section>
+    <div class="topic-strip"><span>Understand AI <b>✦</b></span><span>Recognise misinformation <b>✦</b></span><span>Protect your privacy <b>✦</b></span><span>Build better habits <b>✦</b></span></div>
+
+    <section class="section-wrap section-space" id="why">
+      <div class="section-heading"><div><p class="eyebrow">THE BIG PICTURE</p><h2>Your digital world shapes<br>your <span class="serif">real world.</span></h2></div><p class="muted heading-description">A little understanding helps you spend your time online with more purpose.</p></div>
+      <div class="four-grid why-grid">
+        <article><span class="tile-icon lavender" aria-hidden="true">◎</span><h3>Your feed shapes your view</h3><p>What you see online can influence what you believe and how you see yourself.</p></article>
+        <article><span class="tile-icon peach" aria-hidden="true">✦</span><h3>AI is part of everyday life</h3><p>Recommendations and smart tools quietly shape many digital experiences.</p></article>
+        <article><span class="tile-icon green" aria-hidden="true">◷</span><h3>Your attention matters</h3><p>Unplanned scrolling can interrupt study time, conversations, and daily routines.</p></article>
+        <article><span class="tile-icon yellow" aria-hidden="true">↗</span><h3>Small choices add up</h3><p>Knowing how platforms work helps you choose what deserves your attention.</p></article>
+      </div>
+    </section>
+
+    <section id="ai" class="ai-section section-space">
+      <div class="section-wrap ai-layout">
+        <div><p class="eyebrow">GET TO KNOW AI</p><h2>Understand the<br>intelligence behind<br>your <span class="serif">screen.</span></h2><p class="muted">Artificial intelligence is software that learns patterns from data to make predictions, generate content, or help with tasks.</p><div class="ai-callout"><span aria-hidden="true">✦</span><p>AI can be helpful, but it is not always correct. Think critically and verify important information.</p></div></div>
+        <div class="ai-details">
+          <div class="example-chips"><span>Voice assistants</span><span>Face recognition</span><span>Chatbots</span><span>Translation tools</span><span>Recommendations</span></div>
+          <details open><summary>How do we use AI every day?</summary><p>It helps translate a sentence, answer a voice command, recognise a face, or suggest the next song.</p></details>
+          <details><summary>How does AI influence social media?</summary><p>Recommendation systems look for patterns in activity to predict which posts someone might watch or engage with.</p></details>
+          <details><summary>What can AI help us do?</summary><p>AI can support learning, improve accessibility through captions, translate languages, and help people brainstorm.</p></details>
+          <details><summary>What are its limitations?</summary><p>AI can make mistakes, reflect bias in its data, and create convincing false content. Check original sources and protect private information.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="social" class="section-wrap section-space">
+      <div class="section-heading"><div><p class="eyebrow">BEHIND THE FEED</p><h2>Why does your feed know<br>what you <span class="serif">like?</span></h2></div><p class="muted heading-description">Likes, comments, shares, watch time, searches, and interests all give recommendation systems clues.</p></div>
+      <div class="feed-demo">
+        <div class="feed-intro"><span class="pill">INTERACTIVE DEMO</span><h3>Your feed.<br>Your choices.</h3><p>Like a topic to see more of it. Skip to explore something else.</p><p class="demo-disclaimer">An illustrative simulation using only your clicks on this page.</p><button id="reset-feed" class="text-button">Reset feed ↺</button></div>
+        <div class="feed-post"><div id="post-visual" class="post-visual" aria-hidden="true">✦</div><div class="post-content"><span id="post-topic" class="eyebrow"></span><h3 id="post-title"></h3><div class="feed-actions"><button id="like-post" class="button">♡ Like this</button><button id="skip-post" class="button secondary">Skip →</button></div></div></div>
+        <div class="feed-insight"><h4>Your recommendation mix</h4><div id="feed-bars"></div><p id="feed-feedback" class="muted" aria-live="polite">Try liking a post to change your mix.</p></div>
+      </div>
+    </section>
+
+    <section id="habits" class="habits-section section-space"><div class="section-wrap habits-layout">
+      <div><p class="eyebrow">LESS AUTOPILOT. MORE INTENTION.</p><h2>Make technology<br>work for <span class="serif">you.</span></h2><p class="muted">You don’t need a perfect routine. Start with one small habit that fits your day.</p><a class="text-link" href="#challenge">Try the seven-day challenge →</a><div class="habit-quote">“A small pause can make room<br>for a better choice.”</div></div>
+      <div class="checklist-panel"><div class="panel-top"><h3>Your daily check-in</h3><span id="habit-count">0 / 6</span></div><progress id="habit-progress" max="6" value="0" aria-label="Daily habits completed"></progress><div id="habit-list"></div><p id="habit-status" class="muted small" aria-live="polite">Choose a small win for today.</p><button id="reset-habits" class="text-button">Start a new day ↺</button></div>
+    </div></section>
+
+    <section id="safety" class="section-wrap section-space"><div class="section-heading"><div><p class="eyebrow">CLICK WITH CONFIDENCE</p><h2>Stay smart. Stay <span class="serif">safe online.</span></h2></div></div><div class="three-grid safety-grid">
+      <article><span class="safety-symbol" aria-hidden="true">⌑</span><h3>Keep personal things private</h3><p>Check your audience before posting photos or personal details. Keep your address and live location private.</p></article>
+      <article><span class="safety-symbol" aria-hidden="true">✳</span><h3>Strengthen your sign-in</h3><p>Use a long, unique password for each account and turn on two-step verification when available.</p></article>
+      <article><span class="safety-symbol" aria-hidden="true">⌕</span><h3>Check before you share</h3><p>Look for the original source, publication date, and supporting evidence. Compare with trusted sources.</p></article>
+      <article><span class="safety-symbol" aria-hidden="true">↗</span><h3>Pause on unfamiliar links</h3><p>Check the sender and website address. Open the official website yourself when a message feels suspicious.</p></article>
+      <article><span class="safety-symbol" aria-hidden="true">♡</span><h3>Recognise cyberbullying</h3><p>Repeated threats, humiliation, or unwanted messages deserve support. Save evidence, block, and tell a trusted person.</p></article>
+      <article><span class="safety-symbol" aria-hidden="true">⚑</span><h3>Use your reporting tools</h3><p>Report harmful or inappropriate posts through the platform. Ask a trusted adult for help when you need it.</p></article>
+    </div></section>
+
+    <section id="assessment" class="assessment-section section-space"><div class="section-wrap assessment-layout"><div><p class="eyebrow">A MOMENT FOR REFLECTION</p><h2>How healthy are your<br>digital <span class="serif">habits?</span></h2><p class="muted">Five quick questions to help you reflect on your routine. There are always small ways to improve.</p><p class="small muted">An educational reflection activity. Your answers stay on this page.</p></div><form id="assessment-form"><div id="assessment-questions"></div><button class="button" type="submit">Calculate my result ↗</button><div id="assessment-result" class="result-box" hidden tabindex="-1" aria-live="polite"></div><button id="retake-assessment" type="button" class="text-button" hidden>Retake assessment ↺</button></form></div></section>
+
+    <section id="quiz" class="section-wrap section-space quiz-layout"><div><p class="eyebrow">PUT YOUR KNOWLEDGE TO WORK</p><h2>Think you know<br>your digital <span class="serif">world?</span></h2><p class="muted">Six questions. A few new perspectives.<br>See what you’ve picked up along the way.</p><div class="quiz-decoration" aria-hidden="true">?</div></div><div class="quiz-panel" id="quiz-panel"><div class="panel-top"><span class="pill">QUICK QUIZ</span><span id="quiz-counter"></span></div><progress id="quiz-progress" value="0" max="6" aria-label="Quiz progress"></progress><h3 id="quiz-question" tabindex="-1"></h3><div id="quiz-options"></div><p id="quiz-feedback" aria-live="polite"></p><button id="quiz-next" class="button" disabled>Next question →</button></div></section>
+
+    <section id="challenge" class="challenge-section section-space"><div class="section-wrap"><div class="section-heading"><div><p class="eyebrow">SMALL STEPS, REAL PROGRESS</p><h2>Seven days. Better<br>digital <span class="serif">habits.</span></h2></div><div class="challenge-summary"><strong id="challenge-percent">0%</strong><span>of your challenge complete</span><progress id="challenge-progress" max="7" value="0" aria-label="Seven-day challenge progress"></progress></div></div><div id="challenge-days" class="challenge-days"></div><p id="save-status" class="muted small" aria-live="polite">Your progress is saved in this browser.</p><button id="reset-challenge" class="text-button">Reset challenge ↺</button></div></section>
+    <section class="closing section-wrap"><span aria-hidden="true">✳</span><p class="eyebrow">YOUR NEXT CLICK CAN BE A BETTER ONE</p><h2>Don’t just scroll.<br><span class="serif">Think, learn, take control.</span></h2><p>Build a healthier relationship with technology, one choice at a time.</p><a class="button" href="#habits">Start with one small habit ↗</a></section>
+  </main>
+  <footer class="section-wrap"><div class="footer-main"><a class="brand" href="#home"><span class="brand-icon" aria-hidden="true">↗</span><span>Think Before<br>You Click.</span></a><p>A little awareness for a more intentional digital life.</p><nav aria-label="Footer navigation"><a href="#ai">AI awareness</a><a href="#habits">Healthy habits</a><a href="#quiz">Quiz</a></nav></div><div class="footer-bottom"><span>© <span id="year"></span> Think Before You Click</span><span>For educational purposes. Activities offer general learning guidance.</span></div></footer>
+  <a class="back-top" href="#home" aria-label="Back to top">↑</a>
+</body>
+</html>
